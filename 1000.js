@@ -1,8 +1,7 @@
 var fs = require('fs');
-var input = fs.readFileSync('/dev/stdin').toString().split("\n");
+var input = fs.readFileSync('data.txt').toString().split(" ");
 
-function get_numbers(A,B){
-    return A + B;
-}
+var A = parseInt(input[0]);
+var B = parseInt(input[1]);
 
-console.log(get_numbers());
+console.log(A+B);
