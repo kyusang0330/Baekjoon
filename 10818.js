@@ -17,3 +17,6 @@ for(var i = 1;i<N;i++){
 }
 
 console.log(`${min} ${max}`);
+// .map줄에 있는 거 다 공부하기
+// Number(input[0])과 numbers[0] 차이점 공부하기
+// 마지막줄 $과 `(~) 공부하기
